@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f13e4600f5b0e4a842745dccac6860, type: 3}
+  m_Name: Flame Essence
+  m_EditorClassIdentifier: 
+  abilityName: Flame Essence
+  abilitySprite: {fileID: 21300000, guid: 67cdc34c24e7e51478b71f095c5f4d1f, type: 3}
+  targeting: 3
+  radius: 3
+  degrees: 360
+  range: 30
+  castToggle: 1
+  castTime: 2
+  channelToggle: 0
+  channelTime: 0
+  channelPulseRate: 0
+  onGCD: 1
+  cooldown: 12
+  effects:
+  - effect: {fileID: 11400000, guid: ec5ff1a00aea1d84cb706b93883324e2, type: 2}
+    target: 1
+    applicationChance: 100

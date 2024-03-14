@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f13e4600f5b0e4a842745dccac6860, type: 3}
+  m_Name: DoTPunchAoE
+  m_EditorClassIdentifier: 
+  abilityName: DoTPunchAoE
+  abilitySprite: {fileID: 21300000, guid: eced15bb959edc54c8457ab75f9a45b5, type: 3}
+  targeting: 3
+  radius: 3
+  degrees: 360
+  range: 20
+  castToggle: 0
+  castTime: 0
+  channelToggle: 0
+  channelTime: 0
+  channelPulseRate: 0
+  onGCD: 1
+  cooldown: 8
+  effects:
+  - effect: {fileID: 11400000, guid: 5377fb8e68458754f8f460de1fc69f48, type: 2}
+    target: 1
+    applicationChance: 100

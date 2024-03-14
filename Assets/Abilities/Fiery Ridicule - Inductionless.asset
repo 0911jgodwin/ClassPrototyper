@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f13e4600f5b0e4a842745dccac6860, type: 3}
+  m_Name: Fiery Ridicule - Inductionless
+  m_EditorClassIdentifier: 
+  abilityName: Fiery Ridicule
+  abilitySprite: {fileID: 21300000, guid: 0dc4d66f9c12de247b887bed86e91841, type: 3}
+  targeting: 3
+  radius: 3
+  degrees: 360
+  range: 30
+  castToggle: 0
+  castTime: 1.5
+  channelToggle: 0
+  channelTime: 0
+  channelPulseRate: 0
+  onGCD: 1
+  cooldown: 1
+  effects:
+  - effect: {fileID: 11400000, guid: e57b825514edcd446bcbe3b2bdf5f014, type: 2}
+    target: 1
+    applicationChance: 100
+  - effect: {fileID: 11400000, guid: 2f141f532653df047a57508554c5280b, type: 2}
+    target: 0
+    applicationChance: 100
+  - effect: {fileID: 11400000, guid: c32908b6d68c6c949a4157a5a96d7cbe, type: 2}
+    target: 0
+    applicationChance: 100
+  - effect: {fileID: 11400000, guid: ee60f756d8af60043942920d9d7b8039, type: 2}
+    target: 0
+    applicationChance: 100
+  - effect: {fileID: 11400000, guid: 271475650c5a8b14099d0f445b50c46e, type: 2}
+    target: 0
+    applicationChance: 100
+  - effect: {fileID: 11400000, guid: 5bd4a36950a4ba5429604464c436ee7d, type: 2}
+    target: 0
+    applicationChance: 100
